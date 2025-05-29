@@ -1,1 +1,0 @@
-import{_ as o,d as a,e as c,f as s}from"./index-0b450a74.js";const t={},_={class:"placeholder-page"};function n(r,e){return a(),c("div",_,e[0]||(e[0]=[s("h2",null,"Meus Locais",-1),s("p",null,"Em breve: seus locais favoritos ou cadastrados.",-1)]))}const l=o(t,[["render",n],["__scopeId","data-v-99c64f95"]]);export{l as default};

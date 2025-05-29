@@ -1,1 +1,0 @@
-import{_ as s,d as t,e as _,f as o}from"./index-0b450a74.js";const r={},a={class:"placeholder-page"};function c(d,e){return t(),_("div",a,e[0]||(e[0]=[o("h2",null,"Tipos de Serviço",-1),o("p",null,"Em breve: cadastro e listagem de tipos de serviço.",-1)]))}const n=s(r,[["render",c],["__scopeId","data-v-66981d58"]]);export{n as default};
