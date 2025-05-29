@@ -1,0 +1,2 @@
+<template><div class="placeholder-page"><h2>Tipos de Serviço</h2><p>Em breve: cadastro e listagem de tipos de serviço.</p></div></template>
+<style scoped>.placeholder-page{padding:2.5rem;text-align:center;}</style> 

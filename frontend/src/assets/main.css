@@ -1,0 +1,156 @@
+@import './base.css';
+@import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import 'primevue/resources/primevue.min.css';
+@import 'primeicons/primeicons.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+:root {
+  --primary-color: #3B82F6;
+  --text-color: #2c3e50;
+  --background-color: #f8f9fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-primary {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+
+html, body, #app {
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #7b5fff 0%, #3c8ce7 100%) !important;
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  .p-toast {
+    max-width: 95vw !important;
+    left: 47% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important; /* Sobrescreve o right da regra geral */
+    top: 1.5rem !important;
+    min-width: 0 !important; /* Remove o min-width para telas pequenas se necessário */
+    width: calc(100% - 2rem) !important; /* Faz ocupar quase toda a largura com margens */
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .p-toast .p-toast-message {
+    font-size: 0.95rem !important;
+    padding: 0.8rem 1.2rem !important;
+  }
+
+  .p-toast .p-toast-summary {
+    font-size: 0.95rem;
+  }
+
+  .p-toast .p-toast-detail {
+    font-size: 0.85rem;
+  }
+}
+
+/* Tema escuro global */
+.dark-mode {
+  background: #181a20 !important;
+  color: #fff !important;
+}
+.dark-mode body,
+.dark-mode #app {
+  background: #181a20 !important;
+  color: #fff !important;
+}
+.dark-mode .card,
+.dark-mode .config-card,
+.dark-mode .contato-card,
+.dark-mode .sobre-card {
+  background: #23263a !important;
+  color: #fff !important;
+}
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background: #23263a !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+.dark-mode label {
+  color: #fff !important;
+}
+.dark-mode .user-info-nome,
+.dark-mode .user-info-email {
+  color: #7b5fff !important;
+}
+

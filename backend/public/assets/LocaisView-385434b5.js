@@ -1,0 +1,1 @@
+import{_ as a,d as o,e as c,f as s}from"./index-0b450a74.js";const t={},_={class:"placeholder-page"};function d(n,e){return o(),c("div",_,e[0]||(e[0]=[s("h2",null,"Locais",-1),s("p",null,"Em breve: cadastro e listagem de locais.",-1)]))}const r=a(t,[["render",d],["__scopeId","data-v-64536d29"]]);export{r as default};

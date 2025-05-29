@@ -1,0 +1,1 @@
+import{_ as t,d as o,e as _,f as s}from"./index-0b450a74.js";const c={},a={class:"placeholder-page"};function d(n,e){return o(),_("div",a,e[0]||(e[0]=[s("h2",null,"Combustíveis",-1),s("p",null,"Em breve: cadastro e listagem de combustíveis.",-1)]))}const r=t(c,[["render",d],["__scopeId","data-v-1cbd4143"]]);export{r as default};
